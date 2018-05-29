@@ -1,0 +1,17 @@
+Machine learning recipes
+https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLT6elRN3Aer7ncFlaCz8Zz-4B5cnsrOMt
+
+Machine learning process
+
+Collect training data
+Train a "classifier"
+Make Predictions
+
+The data has multiple lines (rows or examples) and each line has multiple
+columns. These columns are called features.
+e.g housing data: has data for multiple houses and 
+each house data can have features like sqft, number of rooms etc.
+And one of the columns (usually the last column) is a value that must be predicted
+for new data (its called label).
+For existing data, that column is the known value that 
+will be used for training.
