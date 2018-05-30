@@ -1,0 +1,26 @@
+https://www.youtube.com/watch?v=N9fDIAflCMY&index=4&list=PLT6elRN3Aer7ncFlaCz8Zz-4B5cnsrOMt
+
+When the data is collected for different features, some of these
+would be useful features and some are not.
+If a collected feature does not help in predicting the label
+it can be removed.
+E.g if the color of a fruit does not help us in predicting the weight
+of the fruit, its an useless feature.
+Also derived features are not useful, weight in lbs given a weight in
+kgs is not useful feature. Avoid redundancy.
+Multiple features are required to make a reasonably good guess.
+If 2 labels have a feature values at extreme ends then its easy
+to predict it (label1 => feature1 values from 1 - 10, label2 => feature1 values
+from 6-20). Give a feature value 25 its easy to predict that its label2.
+or given a value 3, it can be said as label1. However if the value was 8
+then its difficult to predict the label for that. Thats why a second or 
+more features would be required. If not we could write a simple
+if-else loop to handle this.
+
+If you were a classifier (thats looking at data and making a manual decision)
+think what features would be useful.
+
+Make the features easy to understand and read. If the classifier 
+is guessing the amount of days it would take for a mail to travel
+between 2 cities, its easier to define it as a distance rather
+than latitute and longitude.
