@@ -3,3 +3,5 @@ scipy
 pylint
 pydot
 matplotlib
+numpy
+pandas
